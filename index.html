@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>VR in the World - IKEA Kreativ</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 40px;
+        line-height: 1.6;
+      }
+      h1,
+      h2 {
+        color: #333;
+      }
+      img,
+      video {
+        max-width: 100%;
+        margin: 10px 0;
+      }
+      section {
+        margin-bottom: 40px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>IKEA Kreativ – VR/AR in the World</h1>
+
+    <section>
+      <h2>Purpose</h2>
+      <p>
+        IKEA Kreativ is an augmented reality application within the IKEA app
+        that allows users to design and visualize furniture in their real-world
+        spaces before purchasing.
+      </p>
+    </section>
+
+    <section>
+      <h2>Target Users</h2>
+      <p>
+        The app is designed for the general public, especially homeowners,
+        renters, and people interested in interior design and buying new
+        furniture from IKEA or just designing their home.
+      </p>
+    </section>
+
+    <section>
+      <h2>Features / Tasks</h2>
+
+      <ul>
+        <li>Design an empty boilerplate room with all new IKEA furniture</li>
+        <li>Scan your room using your phone</li>
+        <li>Place IKEA furniture in your space</li>
+        <li>Move and resize items</li>
+      </ul>
+
+      <img src="screenshot1.png" alt="Room scan" />
+      <img src="screenshot2.png" alt="Furniture placement" />
+
+      <video controls>
+        <source src="demo.mp4.mov" type="video/mp4" />
+      </video>
+    </section>
+
+    <section>
+      <h2>Design & Implementation</h2>
+
+      <h3>Technology</h3>
+      <p>
+        Uses smartphone AR (Apple's ARKit/Android ARCore). This is accessible
+        but limited by device performance and camera accuracy.
+      </p>
+
+      <h3>Visual Experience</h3>
+      <p>
+        Focuses on realism. Furniture is rendered to scale and placed in real
+        environments.
+      </p>
+
+      <h3>Interaction</h3>
+      <p>
+        Users interact through touch gestures (drag, rotate, place). The
+        interaction is intuitive but sometimes imprecise.
+      </p>
+    </section>
+
+    <section>
+      <h2>Limitations</h2>
+      <ul>
+        <li>Not perfectly accurate scaling</li>
+        <li>Lighting mismatch between virtual and real objects</li>
+        <li>Limited to IKEA products</li>
+        <li>Requires a good camera and modern phone</li>
+      </ul>
+
+      <p>
+        Future improvements could include better realism, AI-based
+        recommendations, and multi-user collaboration.
+      </p>
+    </section>
+  </body>
+</html>
